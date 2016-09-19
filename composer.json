@@ -5,7 +5,14 @@
     "version": "5.0.0",
     "autoload": {
         "psr-4": {
-            "Snowflake\\Snowbabel\\": "typo3conf/ext/snowbabel/Classes"
+            "Snowflake\\Snowbabel\\": "Classes/"
         }
+    },
+    "require": {
+        "typo3/cms-core": "~6.2.0|>=7.6.0,<8.0"
+    },
+    "replace": {
+        "metaseo": "self.version",
+        "typo3-ter/metaseo": "self.version"
     }
 }
