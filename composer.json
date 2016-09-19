@@ -2,5 +2,10 @@
     "name": "Snowflake/Snowbabel",
     "description": "Translation Extension",
     "type": "typo3-cms-extension",
-    "version": "5.0.0"
+    "version": "5.0.0",
+    "autoload": {
+        "psr-4": {
+            "Snowflake\\Snowbabel\\": "typo3conf/ext/snowbabel/Classes"
+        }
+    }
 }
